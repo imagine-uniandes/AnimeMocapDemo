@@ -27,7 +27,7 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 
 ![Step2](imgs/2.jpg)
 
-5. Download the project code, open it, and execute it in Unity3D. The avatar should start to change its pose automatically if the connection between ThreeDPoseTracker and Unity is correct. If the avatar does not change its pose, check the ports are correctly configurated and create the inbound and outbound UDP rules in the firewall.
+5. Download the project code, open the MainScene scene file, and execute it in Unity3D. The avatar should start to change its pose automatically if the connection between ThreeDPoseTracker and Unity is correct. If the avatar does not change its pose, check the ports are correctly configurated and create the inbound and outbound UDP rules in the firewall.
 
 ![Step3](imgs/3.jpg)
 
