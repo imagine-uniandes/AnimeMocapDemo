@@ -31,7 +31,7 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 
 ![Step3](imgs/3.jpg)
 
-6. Use the left and right arrows to change the avatar, there are six different characters! You can dowload more anime-like VRM compatible characters in VROID https://hub.vroid.com/en
+6. Use the left and right arrow keys to change the avatar, there are six different characters! You can dowload more anime-like VRM compatible characters in VROID https://hub.vroid.com/en
 
 ![Step4](imgs/4.jpg)
 
