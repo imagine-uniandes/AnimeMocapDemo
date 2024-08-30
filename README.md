@@ -35,7 +35,7 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 
 ![Step4](imgs/4.jpg)
 
-7. Ensure that you are located a good distance from the camera, close to the wall or chroma. That's all! You'll see the avatar in Unity responding to your movements. Don't worry if the avatar sometimes remains static; some pauses occur because ThreeDPoseTracker only captures a few seconds in the trial version. To prevent that, you can use VMC instead, which is free (https://github.com/sh-akira/VirtualMotionCapture - sorry, most of the documentation is in Japanese).
+7. Before start, ensure that the user is located a good distance from the camera, close to the wall or chroma, and with good lighting conditions. That's all! You'll see the avatar in Unity responding to the user's movements. Don't worry if the avatar sometimes remains static; some pauses occur because ThreeDPoseTracker only captures a few seconds in the trial version. To prevent that, you can use VMC instead, which is free (https://github.com/sh-akira/VirtualMotionCapture - sorry, most of the documentation is in Japanese).
 
 
 ## Credits
