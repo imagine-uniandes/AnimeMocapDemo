@@ -1,3 +1,46 @@
-# AnimeMocapDemo - Soy un anime! Ç∆ÇÕ
+# AnimeMocapDemo - Soy un anime!
 
-AnimeMocapDemo is a demo application based on Virtual Motion Capture Protocol (VMCProcotol - https://protocol.vmc.info/), a communication protocol for virtual motion capture. Using a simple camera, you can control an avatar without the need of using complex mocap system or implementing VR interfaces. 
+AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protocol (VMCProtocol - https://protocol.vmc.info/), a communication protocol for virtual motion capture. The application takes information from a real-time markerless mocap system to capture the user's pose and applies it to a 3D avatar model. Using a simple camera, you can control different anime avatars without the need to use complex mocap systems or implement VR interfaces! Any 3D model compatible with the VRM standard (https://vrm-consortium.org) can be used in the application. ItÅfs a very useful tool for engaging children in activities that combine technology and creativity!
+
+![Promo](imgs/0.jpg)
+
+## Requirements
+
+1. Unity3D version 2022 or later.
+2. A real-time markerless mocap application compatible with the VMC protocol. We recommend Virtual Motion Capture (https://akira.works/VirtualMotionCapture-en/download.html) or ThreeDPoseTracker (https://github.com/digital-standard/ThreeDPoseTracker).
+3. A PC with a good/modern GPU. ThreeDPoseTracker uses AI to infer the user's pose based on the interpolation of frames from the camera.
+4. A simple USB camera.
+5. An empty, colored uniform wall or surface. For better results, we recommend using a green chroma..
+
+
+## Setup 
+
+1. Download and execute VCM or ThreeDPoseTracker (A trial version of ThreeDPoseTracker can be downloaded here: https://drive.google.com/file/d/1ECaozI2Dn6_D0fvaQBge1ge_P-5d3wXK/view?usp=drive_link)..
+
+2. Execute ThreeDPoseTracker.exe, then in the option 'Source Device', select your USB Camera device. 
+
+![Step1](imgs/1.jpg)
+
+3. Ensure you see the camera input and the anime girl respond to your movements. It is necessary that the camera captures your whole body in order to see the avatar in action.
+
+4. Select the configuration menu, then select the 'Others' tab. Check the option "Send VMC protocol" and then click the "Apply" and "OK" buttons. By default, the application uses port 39539. Sometimes, this port can be blocked by the Windows firewall. Do not close ThreeDPoseTracker.
+
+![Step2](imgs/2.jpg)
+
+5. Download the project code, open it, and execute it in Unity3D.
+
+![Step3](imgs/3.jpg)
+
+6. Use the left and right arrows to change the avatar?there are six different characters!
+
+![Step4](imgs/4.jpg)
+
+7. Ensure that you are located a good distance from the camera, close to the wall or chroma. That's all! You'll see the avatar in Unity responding to your movements. Don't worry if the avatar sometimes remains static; some pauses occur because ThreeDPoseTracker only captures a few seconds in the trial version. To prevent that, you can use VMC instead, which is free (https://protocol.vmc.info/ - sorry, most of the documentation is in Japanese).
+
+
+## Credits
+
+Developed by Jose L. Dorado (jl.dorado59@uniandes.edu.co,  jl-dorado@hotmail.com). Most of the credits are for @sh_akira (https://x.com/sh_akira) developer of the VMC protocol.  
+
+
+
