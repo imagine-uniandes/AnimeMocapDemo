@@ -8,7 +8,7 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 
 1. Unity3D version 2022 or later.
 2. A real-time markerless mocap application compatible with the VMC protocol. We recommend Virtual Motion Capture VMC (https://github.com/sh-akira/VirtualMotionCapture) (opensource) or ThreeDPoseTracker (https://github.com/digital-standard/ThreeDPoseTracker) (paid).
-3. A PC with a good/modern GPU. ThreeDPoseTracker uses AI to infer the user's pose based on the interpolation of frames from the camera.
+3. A PC with a GPU RTX2080Ti o later. ThreeDPoseTracker uses AI to infer the user's pose based on the interpolation of frames from the camera.
 4. A simple USB camera.
 5. An empty, colored uniform wall or surface. For better results, we recommend using a green chroma.
 
