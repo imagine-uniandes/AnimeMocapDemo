@@ -23,11 +23,11 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 
 3. Ensure you see the camera input and the anime girl respond to your movements. It is necessary that the camera captures your whole body in order to see the avatar in action.
 
-4. Select the configuration menu, then select the 'Others' tab. Check the option "Send VMC protocol" and then click the "Apply" and "OK" buttons. By default, the application uses port 39539. Sometimes, this port can be blocked by the Windows firewall. Do not close ThreeDPoseTracker.
+4. Select the configuration menu, then select the 'Others' tab. Check the option "Send VMC protocol" and then click the "Apply" and "OK" buttons. By default, the application uses UDP port 39539. Sometimes, this port can be blocked by the Windows firewall. Do not close ThreeDPoseTracker.
 
 ![Step2](imgs/2.jpg)
 
-5. Download the project code, open it, and execute it in Unity3D.
+5. Download the project code, open it, and execute it in Unity3D. The avatar should start to change its pose automatically if the connection between the ThreeDPoseTracker and Unity is correct. If the avatar does not change its pose, check the ports are correctly configurated and create the inbound and outbound UDP rules in the firewall.
 
 ![Step3](imgs/3.jpg)
 
