@@ -13,7 +13,7 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 5. An empty, colored uniform wall or surface. For better results, we recommend using a green chroma.
 
 
-## Setup 
+## Getting Started 
 
 1. Download and execute VCM or ThreeDPoseTracker (A trial version of ThreeDPoseTracker can be downloaded here: https://drive.google.com/file/d/1ECaozI2Dn6_D0fvaQBge1ge_P-5d3wXK/view?usp=drive_link).
 
@@ -42,5 +42,7 @@ AnimeMocapDemo is a demo application based on the Virtual Motion Capture Protoco
 
 Developed by Jose L. Dorado (jl.dorado59@uniandes.edu.co,  jl-dorado@hotmail.com). Most of the credits are for @sh_akira (https://x.com/sh_akira) developer of VMC . If you find this app useful, please donate to the VMC project https://sh-akira.booth.pm/items/999760.  
 
+Grupo Imagine Uniandes
+https://imagine.uniandes.edu.co
 
 
